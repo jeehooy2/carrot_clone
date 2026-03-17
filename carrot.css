@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4d5159;
+}
+
+a:hover {
+  color: #868b94;
+}
+
+header {
+  margin: 0 150px;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  width: 100px;
+}
+
+.header-menu-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+}
+
+.header-menu-item {
+  color: #4d5159;
+  margin: 10px;
+}
+
+.header-service {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+#search {
+  width: 250px;
+  height: 50px;
+  background-color: #f2f3f6;
+  color: #757575;
+  border: 0;
+  border-radius: 8px;
+  padding: 0 10px;
+  margin: 10px;
+}
+
+.header-chat-button {
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  border: solid 1px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px 0;
+  margin: 10px;
+}
