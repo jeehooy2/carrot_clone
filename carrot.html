@@ -1,194 +1,89 @@
-@font-face {
-  font-family: "Gilroy-Bold";
-  font-display: swap;
-  src: url(https://d1unjqcospf8gs.cloudfront.net/assets/Gilroy-Bold-76f01426d347c0a032cb7669f76f457dfe153f125b58f0ab76a71693796c6918.woff);
-}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>당근마켓 푸터</title>
+  <link rel="stylesheet" href="carrot.css">
+</head>
+<body>
+  
+<footer>
+  <section1 class="footer-wrapper">
+    <div class="foot-left-text">
+      <div class="row-1">
+        <p>중고거래</p>
+        <p>동네업체</p>
+        <p>당근알바</p>
+        <p>부동산 직거래</p>
+        <p>중고차 직거래</p>
+      </div>
+      <div class="row-2">
+        <p>당근비즈니스</p>
+        <p>채팅하기</p>
+      </div>
+      <div class="row-3">
+        <p>자주 묻는 질문</p>
+        <p>회사 소개</p>
+        <p>인재 소개</p>
+      </div>
+    </div>
+    <div class="download-section">
+      <div class="download-text">당근 앱 다운로드</div>
+      <div class="download-button">
+        <button class="apple">
+          <img src="img/Alogo.png" class="logo" alt="Apple Logo" />
+          <span class="store-text">APP STORE</span>
+        </button>
+        <button class="play">
+          <img src="img/Glogo.png" class="logo" alt="Play Store Logo" />
+          <span class="store-text">GOOGLE PLAY</span>
+        </button>
+      </div>
+    </div>
+  </section1>
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
+  <div class="footer-divider"></div>
 
-footer {
-  width: 100%;
-  padding-bottom: 80px;
-}
+  <section2 class="footer-info">
+    <div class="info-top">
+      <div class="info-text">
+        <div class="info-row">대표 김용현, 황도연 <span class="divider">|</span> 사업자번호 375-87-00088</div>
+        <div class="info-row">직업정보제공사업 신고번호 J1200020200016</div>
+        <div class="info-row">주소 서울특별시 구로구 디지털로30길 28, 609호(당근서비스)</div>
+        <div class="info-row">전화 1544-9796 <span class="divider">|</span> 고객문의 cs@daangnservice.com</div>
+      </div>
+      <div class="info-socials">
+        <img src="img/Flogo.png" class="footer-logo" />
+        <img src="img/Ilogo.png" class="footer-logo" />
+        <img src="img/Ylogo.png" class="footer-logo" />
+        <img src="img/Blogo.png" class="footer-logo" />
+        
+        <div class="language-selector">
+          <img src="img/Elogo.png" class="footer-logo" />
+          <span class="footer-language">한국</span>
+          <img src="img/Tlogo.png" class="footer-arrow"/>
+        </div>
+      </div>
+    </div>
 
-.footer-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 60px auto 40px;
-  max-width: 1000px;
-  width: 100%;
-  padding: 0 20px;
-  box-sizing: border-box;
-}
+    <div class="bottom-links">
+      <div class="footer-links-row bold-links">
+        <a href="#">제휴 문의</a>
+        <a href="#">광고 문의</a>
+        <a href="#">PR 문의</a>
+        <a href="#">IR 문의</a>
+      </div>
+      <div class="footer-links-row light-links">
+        <a href="#">이용약관</a>
+        <a href="#">개인정보처리방침</a>
+        <a href="#">위치기반서비스 이용약관</a>
+        <a href="#">이용자보호 비전과 계획</a>
+        <a href="#">청소년보호정책</a>
+      </div>
+    </div>
+  </section2>
+</footer>
 
-.foot-left-text {
-  display: flex;
-  gap: 120px;
-}
-
-.row-1, .row-2, .row-3 {
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-}
-
-.row-1 p, .row-2 p, .row-3 p {
-  margin: 0;
-  font-size: 16px;
-  color: darkslategray;
-  cursor: pointer;
-}
-
-.download-section {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-}
-
-.download-text {
-  font-size: 16px;
-  font-weight: 700;
-  color: black;
-}
-
-.download-button {
-  display: flex;
-  gap: 12px;
-}
-
-.download-button button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  background: whitesmoke;
-  border: none;
-  border-radius: 8px;
-  padding: 12px 18px;
-  cursor: pointer;
-  color: black;
-}
-
-.download-button button:hover {
-  background: white;
-}
-
-.store-text {
-  font-family: "Gilroy-Bold", sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  margin: 0;
-}
-
-.logo {
-  width: 18px;
-  height: 18px;
-  object-fit: contain;
-}
-
-.footer-divider {
-  max-width: 1000px;
-  margin: 0 auto;
-  border-top: 1px solid gray;
-}
-
-.footer-info {
-  max-width: 1000px;
-  margin: 30px auto 0;
-  padding: 0 20px;
-  box-sizing: border-box;
-  display: block;
-}
-
-.info-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 40px;
-}
-
-.info-text {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.info-row {
-  font-size: 14px;
-  color: gray;
-}
-
-.divider {
-  margin: 0 4px;
-  color: gray;
-}
-
-.info-socials {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-
-.footer-logo {
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
-  opacity: 0.6;
-}
-
-.footer-logo:hover {
-  opacity: 1;
-}
-
-.language-selector {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  margin-left: 10px;
-  color: gray;
-  font-size: 15px;
-  cursor: pointer;
-  font-weight: 500;
-}
-
-.footer-arrow {
-  font-size: 10px;
-  margin-left: 2px;
-  width: 30px;
-  height: 30px;
-}
-
-.bottom-links {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.footer-links-row {
-  display: flex;
-  gap: 24px;
-}
-
-.footer-links-row a {
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.bold-links a {
-  color: gray;
-  font-weight: 700;
-}
-
-.light-links a {
-  color: gray;
-  font-weight: 400;
-}
-
-.bold-links a:hover, .light-links a:hover {
-  text-decoration: underline;
-}
+</body>
+</html>
