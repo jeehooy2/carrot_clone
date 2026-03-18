@@ -212,3 +212,197 @@ header {
 #body5 {
   background-color: #f7fded;
 }
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-display: swap;
+  src: url(https://d1unjqcospf8gs.cloudfront.net/assets/Gilroy-Bold-76f01426d347c0a032cb7669f76f457dfe153f125b58f0ab76a71693796c6918.woff);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+footer {
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 60px auto 40px;
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.foot-left-text {
+  display: flex;
+  gap: 120px;
+}
+
+.row-1, .row-2, .row-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.row-1 p, .row-2 p, .row-3 p {
+  margin: 0;
+  font-size: 16px;
+  color: darkslategray;
+  cursor: pointer;
+}
+
+.download-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.download-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+
+.download-button {
+  display: flex;
+  gap: 12px;
+}
+
+.download-button button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: whitesmoke;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 18px;
+  cursor: pointer;
+  color: black;
+}
+
+.download-button button:hover {
+  background: white;
+}
+
+.store-text {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.logo {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.footer-divider {
+  max-width: 1000px;
+  margin: 0 auto;
+  border-top: 1px solid gray;
+}
+
+.footer-info {
+  max-width: 1000px;
+  margin: 30px auto 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.info-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.info-row {
+  font-size: 14px;
+  color: gray;
+}
+
+.divider {
+  margin: 0 4px;
+  color: gray;
+}
+
+.info-socials {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.footer-logo {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.footer-logo:hover {
+  opacity: 1;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 10px;
+  color: gray;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.footer-arrow {
+  font-size: 10px;
+  margin-left: 2px;
+  width: 30px;
+  height: 30px;
+}
+
+.bottom-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-links-row {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-links-row a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.bold-links a {
+  color: gray;
+  font-weight: 700;
+}
+
+.light-links a {
+  color: gray;
+  font-weight: 400;
+}
+
+.bold-links a:hover, .light-links a:hover {
+  text-decoration: underline;
+}
