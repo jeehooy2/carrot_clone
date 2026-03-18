@@ -3,20 +3,20 @@
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  color: #4d5159;
-}
-
-a:hover {
-  color: #868b94;
+html {
+  min-width: 980px;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 header {
-  margin: 0 150px;
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+header a {
+  text-decoration: none;
 }
 
 .header-main {
@@ -24,44 +24,62 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-width: 1000px;
-  margin: 0 auto;
+
+  width: 100%;
+  height: 40px;
+  padding: 0 40px;
 }
 
 .header-logo {
-  width: 100px;
+  width: 65px;
+  height: 36px;
 }
 
 .header-menu-list {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-left: 0;
+  align-items: center;
   list-style: none;
+  width: 100%;
 }
 
 .header-menu-item {
+  display: inline-block;
   color: #4d5159;
   margin: 10px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header-menu-item a:visited {
+  color: #4d5159;
+}
+
+.header-menu-item a:hover {
+  color: #868b94;
 }
 
 .header-service {
-  width: 500px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  margin-left: 80px;
+  align-items: center;
+  margin-left: 100px;
 }
 
-#search {
+.header-search {
+  margin-right: 15px;
+  position: relative;
+}
+
+.header-search-box {
   width: 250px;
-  height: 40px;
+  height: 32px;
+  padding: 4px 12px 0 12px;
+  margin-top: 25px;
+  margin-bottom: 15px;
   background-color: #f2f3f6;
   color: #757575;
-  border: 0;
-  border-radius: 8px;
-  padding: 0 10px;
-  margin: 10px;
+  border: none;
+  border-radius: 4px;
 }
 
 /* .header-chat-button {
@@ -91,6 +109,11 @@ header {
   padding: 4px;
 }
 
+.header-chat-button:hover {
+  color: #636365;
+  background-color: #f6f7f9;
+}
+
 .main-first {
   width: 100%;
   height: 100%;
@@ -103,22 +126,44 @@ header {
 
 .main-first-title {
   margin: 20px;
-
-  font-size: 50px;
-  line-height: 1.4;
 }
 
 .main-first-text {
   margin: 20px;
   color: #7c7c7c;
-
-  font-size: 20px;
-  line-height: 1.5;
 }
 
 .main-first-downloads {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-first-button {
+  width: 160px;
+  height: 50px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #ff6f0f;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.main-first-button:hover {
+  background-color: #f06000;
+}
+
+.main-first-down-store {
+  width: 100px;
+  color: white;
+  margin-left: 10px;
+  font-weight: 600;
+  text-align: center;
 }
 
 /* 각 body 파트 내 이미지 */
