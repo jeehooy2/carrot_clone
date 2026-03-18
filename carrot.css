@@ -55,7 +55,7 @@ header {
 
 #search {
   width: 250px;
-  height: 50px;
+  height: 40px;
   background-color: #f2f3f6;
   color: #757575;
   border: 0;
@@ -64,7 +64,7 @@ header {
   margin: 10px;
 }
 
-.header-chat-button {
+/* .header-chat-button {
   width: 70px;
   height: 30px;
   background-color: white;
@@ -73,6 +73,22 @@ header {
   text-align: center;
   padding: 5px 0;
   margin: 10px;
+} */
+
+.header-chat-button {
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  border: solid 1px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
 }
 
 .main-first {
@@ -87,11 +103,17 @@ header {
 
 .main-first-title {
   margin: 20px;
+
+  font-size: 50px;
+  line-height: 1.4;
 }
 
 .main-first-text {
   margin: 20px;
   color: #7c7c7c;
+
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .main-first-downloads {
@@ -220,7 +242,9 @@ header {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
 }
 
 footer {
@@ -244,13 +268,17 @@ footer {
   gap: 120px;
 }
 
-.row-1, .row-2, .row-3 {
+.row-1,
+.row-2,
+.row-3 {
   display: flex;
   flex-direction: column;
   gap: 28px;
 }
 
-.row-1 p, .row-2 p, .row-3 p {
+.row-1 p,
+.row-2 p,
+.row-3 p {
   margin: 0;
   font-size: 16px;
   color: darkslategray;
@@ -403,6 +431,7 @@ footer {
   font-weight: 400;
 }
 
-.bold-links a:hover, .light-links a:hover {
+.bold-links a:hover,
+.light-links a:hover {
   text-decoration: underline;
 }
