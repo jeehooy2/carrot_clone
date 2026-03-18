@@ -97,6 +97,83 @@ header {
 .main-first-downloads {
   display: flex;
   flex-direction: row;
+}
+
+/* 각 body 파트 내 이미지 */
+.mainImg {
+  height: 700px;
+  display: inline-block;
+}
+
+/* 각 body 파트 내 텍스트 */
+.bodyContainer {
+  text-align: left;
+  /* width: 330px; */
+  display: inline-block;
+}
+
+.bodyContainer > * {
+  margin: 12px;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+
+.bodyTitle {
+  color: #fe6f0f;
+  font-size: 18px;
+}
+
+.bodyDescripton {
+  font-size: 38px;
+}
+
+.bodyDetail {
+  color: #7c7c7c;
+  font-size: 20px;
+  width: 330px;
+  margin-bottom: 40px; /*check: margin-bottom만 남고, top은 사라짐?*/
+}
+
+.grayButton {
+  font-weight: bold;
+  font-size: 17px;
+  display: inline;
+  background-color: #e9ebee;
+  padding: 12px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.grayButton:hover {
+  background-color: #dcdcdc;
+}
+
+.iconBlock {
+  display: inline-block;
+  width: 130px;
+  margin-right: 10px;
+}
+
+.iconBlock * {
+  margin: 5px;
+}
+
+.iconImg {
+  height: 55px;
+}
+
+.iconTitle {
+  font-size: 14px;
+}
+
+.iconDetail {
+  font-size: 12px;
+  color: #7c7c7c;
+}
+
+/* body 배경색 및 요소 정렬*/
+.bodyBlock {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -118,4 +195,20 @@ header {
   width: 90px;
   color: white;
   margin-left: 10px;
+}
+
+#body2 {
+  background-color: #f9f9f9;
+}
+
+#body3 {
+  background-color: #fff8f1;
+}
+
+#body4 {
+  background-color: #f9f9f9;
+}
+
+#body5 {
+  background-color: #f7fded;
 }
