@@ -46,6 +46,7 @@ header a {
   display: inline-block;
   color: #4d5159;
   margin: 10px;
+  margin-top: 20px;
   font-weight: 700;
   text-decoration: none;
 }
@@ -95,18 +96,18 @@ header a {
 
 .header-chat-button {
   width: 70px;
-  height: 30px;
+  height: 32px;
   background-color: white;
   border: solid 1px;
   border-radius: 5px;
-  text-align: center;
-  margin: 10px;
+  margin-top: 10px;
+  /* margin: 10px; */
 
   font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4px;
+  padding: 10px;
 }
 
 .header-chat-button:hover {
@@ -126,10 +127,14 @@ header a {
 
 .main-first-title {
   margin: 20px;
+  font-size: 50px;
+  line-height: 1.4;
 }
 
 .main-first-text {
   margin: 20px;
+  font-size: 20px;
+  line-height: 1.5;
   color: #7c7c7c;
 }
 
